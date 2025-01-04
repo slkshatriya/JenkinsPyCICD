@@ -1,9 +1,11 @@
-list = [5, 3, 1, 4, 2]
+my_list = [5, 3, 1, 4, 2]
 
 
 def sortedList():
-    return list.sort()
+    my_list.sort()
+    return my_list
 
 
 def reverseList():
-    return list.reverse()
+    my_list.reverse()
+    return my_list
